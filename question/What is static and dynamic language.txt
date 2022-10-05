@@ -1,0 +1,4 @@
+>A programming language is statically typed :-if the type of a variable is known at compile .
+e.q:-java,c,c++
+>A language is dynamically type 'if the type of a variable is checked during run-time.
+e.q:-JavaScript,php,python
