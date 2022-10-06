@@ -1,0 +1,4 @@
+>the process of converting the value of one data type(int,float,double etc) to another data type is known as typecasting.
+>mainly we have two type:
+1.Widening type casting(Implicit Type Casting) =>happen automatically
+2.Narrowing Type Casting(Explicit Type Casting) =>do manually
