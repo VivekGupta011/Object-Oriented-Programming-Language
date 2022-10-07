@@ -11,10 +11,7 @@ public class Armstrong {
         for (int i = 100; i < 1000; i++) {
             if (ArmstrongCheck(i)) {
                 System.out.println("armstrong:" + i+"");
-            }else{
-                System.out.println("Not armstrong:" + i+"");
-
-            }
+            }  
         }
 
     }
