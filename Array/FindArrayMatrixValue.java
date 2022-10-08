@@ -31,6 +31,17 @@ public class FindArrayMatrixValue{
             
         }
 
+        System.out.println("Pattern format:");
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<cols;j++){
+               
+                    System.out.print("*" +" ");
+                
+            }
+            System.out.println();
+            
+        }
+
     }
     
 }
