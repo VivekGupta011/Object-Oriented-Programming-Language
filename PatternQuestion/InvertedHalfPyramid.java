@@ -10,5 +10,5 @@ public class InvertedHalfPyramid {
             System.out.println();
 
         }
-    }
+    } 
 }
