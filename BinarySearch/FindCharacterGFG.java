@@ -10,26 +10,26 @@ public class FindCharacterGFG {
         System.out.println("Ans is:"+result);
         
     }
-    static char nextGreatest(char alphabets[],char target){
-        int n=alphabets.length;
-        if(target>=alphabets[n-1]){
-            return alphabets[0];
+    static char nextGreatest(char letters[],char target){
+        int n=letters.length;
+        if(target>=letters[n-1]){
+            return letters[0];
 
         }
-        int start=0,end=alphabets.length-1;
+        int start=0,end=letters.length-1;
         int ans=-1;
         while(start<=end){
             int mid=start+(end-start)/2;
-            System.out.println("start:"+start);
-            if(alphabets[mid]>target){
+           
+            if(letters[mid]>target){
                 end=mid-1;
-                System.out.println("value:"+alphabets[mid]);
+
                 ans=mid;
 
             }else{
                 start=mid+1;
             }
         }
-        return alphabets[ans];
+        return letters[ans];
     }
 }
