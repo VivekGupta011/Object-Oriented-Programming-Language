@@ -3,8 +3,8 @@ package BinarySearch;
 public class EasyLevel { 
     public static void main(String[] args) {
         System.out.println("This is testing!");
-        int[] array={2,4,5,67,8,9,12,13,25,30,45};
-        int target=309;
+        int[] array={2,4,12,5,10,12,15,12,25,34,12 ,12,12,45,67,89,105};
+        int target=12;
         EasyLevel bb=new EasyLevel();
         int ans=bb.binarySearch(array, target);
         System.out.println("This is array target:"+ans);    
@@ -25,7 +25,7 @@ public class EasyLevel {
                 return mid;
             }  
         }
-        return -1;
+        return end;
     }
     
 }
