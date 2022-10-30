@@ -1,0 +1,6 @@
+>java Collection framework provide a stack class that models and implements a Stack data structure.
+>this class based on Principal of last-in-first-out
+>in Stack push and pop operations provide three more functions of empty,search and peek.
+>How to create a Stack? => Stack<E> stack=new Stack<E>();
+
+Note:Methods inherited from class java.util.Vector
