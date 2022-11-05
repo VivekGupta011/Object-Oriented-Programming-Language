@@ -13,6 +13,7 @@ public class ReverseOfString {
         for(int i=A.length()-1;i>=0;i--){
             ch=A.charAt(i);
             CheckPalindrome=CheckPalindrome+ch;
+            System.out.println("String is:"+CheckPalindrome);
             
         }
         if(CheckPalindrome.equals(A)){

@@ -37,7 +37,7 @@ public class ArraylistOfArraylist{
 
 		for (int i = 0; i < aList.size(); i++) {
 			for (int j = 0; j < aList.get(i).size(); j++) {
-				System.out.print(aList.get(j) + " ");
+				System.out.print(aList.get(i).get(j) + " ");
 			}
 			System.out.println();
 		}
